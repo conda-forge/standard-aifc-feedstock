@@ -20,6 +20,8 @@ requirements:
     - pip
   run:
     - python
+    - audioop-lts     # [py>=313]
+    - standard-chunk  # [py>=313]
 
 test:
   imports:
